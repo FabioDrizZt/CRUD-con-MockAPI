@@ -1,0 +1,30 @@
+### Obtener todos los productos (GET)
+GET https://66fb281c8583ac93b40b0268.mockapi.io/productos
+
+### Obtener el producto #18 (GET)
+GET https://66fb281c8583ac93b40b0268.mockapi.io/productos/18
+
+### Crear un producto (POST)
+POST https://66fb281c8583ac93b40b0268.mockapi.io/productos
+Content-Type: application/json
+
+{
+    "nombre": "Ojotas",
+    "imagen": "https://melissa.footolophy.com.ar/media/catalog/product/cache/7/thumbnail/9df78eab33525d08d6e5fb8d27136e95/3/3/33694-ad423-melissa_sun_venice_shine_ad-min.jpg",
+    "precio": "222.00",
+    "descripcion": "Son altas ojoturras"
+}
+
+### Actualizar un producto (PUT)
+PUT https://66fb281c8583ac93b40b0268.mockapi.io/productos/18
+Content-Type: application/json
+
+{
+    "nombre": "Chanclas",
+    "imagen": "https://melissa.footolophy.com.ar/media/catalog/product/cache/7/thumbnail/9df78eab33525d08d6e5fb8d27136e95/3/3/33694-ad423-melissa_sun_venice_shine_ad-min.jpg",
+    "precio": "333.00",
+    "descripcion": "Son unas wenas chancletas"
+}
+
+### Eliminar el producto #4 (GET)
+DELETE https://66fb281c8583ac93b40b0268.mockapi.io/productos/4

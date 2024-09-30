@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "0ce2273d-233a-40c4-87e7-4340ce8be32c",
+		"name": "CRUD Productos MockAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12183735"
+	},
+	"item": [
+		{
+			"name": "Productos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Producto Zapatilla",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Zapatillas\",\r\n    \"imagen\": \"https://acdn.mitiendanube.com/stores/102/392/products/img_46551-8cb0313e855a8ed88216276734530419-1024-1024.jpg\",\r\n    \"precio\": \"789.00\",\r\n    \"descripcion\": \"Son altas llantas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://66fb281c8583ac93b40b0268.mockapi.io/productos"
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Producto Zapatilla",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Zapatillas\",\r\n    \"imagen\": \"https://acdn.mitiendanube.com/stores/102/392/products/img_46551-8cb0313e855a8ed88216276734530419-1024-1024.jpg\",\r\n    \"precio\": \"789.00\",\r\n    \"descripcion\": \"Son altas llantas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://66fb281c8583ac93b40b0268.mockapi.io/productos"
+			},
+			"response": []
+		},
+		{
+			"name": "Producto zapatilla",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Producto 2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://66fb281c8583ac93b40b0268.mockapi.io/productos/2"
+			},
+			"response": []
+		}
+	]
+}
