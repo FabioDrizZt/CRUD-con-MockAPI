@@ -9,8 +9,16 @@
 <body>
     <h1>CRUD de Productos</h1>
 
+    <form id="producto-form">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto" required>
+        <input type="number" name="precio" id="precio" placeholder="Precio" required>
+        <input type="text" name="imagen" id="imagen" placeholder="URL de la imagen" required>
+        <input type="text" name="descripcion" id="descripcion" placeholder="descripcón del producto" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+
     <section id="productos-lista"></section>
-    
+
     <script src="./script.js"></script>
 </body>
 </html>
